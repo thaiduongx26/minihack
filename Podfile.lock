@@ -1,0 +1,26 @@
+PODS:
+  - CircleProgressView (1.0.11)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+
+DEPENDENCIES:
+  - CircleProgressView (from `https://github.com/CardinalNow/iOS-CircleProgressView.git`)
+  - FMDB
+
+EXTERNAL SOURCES:
+  CircleProgressView:
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+
+CHECKOUT OPTIONS:
+  CircleProgressView:
+    :commit: 51cbf218c4b417aed925d0d30e0c03dbff9b98cd
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+
+SPEC CHECKSUMS:
+  CircleProgressView: 3e7e26454ad9a93e310fe9cd612af6d779deb0c1
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+
+PODFILE CHECKSUM: a594a7525db28d6bdbe1eae75179ae1cd17d32a2
+
+COCOAPODS: 1.0.1

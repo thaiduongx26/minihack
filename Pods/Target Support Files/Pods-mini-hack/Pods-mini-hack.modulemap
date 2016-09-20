@@ -1,0 +1,6 @@
+framework module Pods_mini_hack {
+  umbrella header "Pods-mini-hack-umbrella.h"
+
+  export *
+  module * { export * }
+}

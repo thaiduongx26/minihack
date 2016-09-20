@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B8E563CDF387A19DFFCE9C /* Pods_mini_hack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F448165BD647B7B5B33DEA /* Pods_mini_hack.framework */; };
+		842EC8F61D90E03200F1FB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC8F51D90E03200F1FB57 /* AppDelegate.swift */; };
+		842EC8FB1D90E03200F1FB57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EC8F91D90E03200F1FB57 /* Main.storyboard */; };
+		842EC8FD1D90E03200F1FB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EC8FC1D90E03200F1FB57 /* Assets.xcassets */; };
+		842EC9001D90E03200F1FB57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EC8FE1D90E03200F1FB57 /* LaunchScreen.storyboard */; };
+		842EC90F1D90E71300F1FB57 /* PoplarStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 842EC90D1D90E70200F1FB57 /* PoplarStd.otf */; };
+		842EC9101D90E71300F1FB57 /* StencilStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 842EC90E1D90E70200F1FB57 /* StencilStd.otf */; };
+		842EC9131D90E81400F1FB57 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC9121D90E81400F1FB57 /* HomeViewController.swift */; };
+		842EC9151D90EED400F1FB57 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC9141D90EED400F1FB57 /* Database.swift */; };
+		842EC9171D90EF6400F1FB57 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC9161D90EF6400F1FB57 /* PlayViewController.swift */; };
+		842EC91B1D90F36B00F1FB57 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC9191D90F36B00F1FB57 /* ExtensionUIView.swift */; };
+		842EC91C1D90F36B00F1FB57 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC91A1D90F36B00F1FB57 /* ExtensionUIColor.swift */; };
+		842EC94A1D90F7D800F1FB57 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 842EC9491D90F7D800F1FB57 /* libsqlite3.0.tbd */; };
+		842EC9521D90FA2000F1FB57 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC9511D90FA2000F1FB57 /* ModelManager.swift */; };
+		842EC9541D90FA5100F1FB57 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC9531D90FA5100F1FB57 /* Pokemon.swift */; };
+		842EC95F1D9101A600F1FB57 /* pokemon.db in Resources */ = {isa = PBXBuildFile; fileRef = 842EC95E1D91011800F1FB57 /* pokemon.db */; };
+		842EC9611D91052500F1FB57 /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842EC9601D91052500F1FB57 /* ExtensionUIImage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23F448165BD647B7B5B33DEA /* Pods_mini_hack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mini_hack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		280BB0BE5ACD85DCEE5D6F4C /* Pods-mini-hack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mini-hack.release.xcconfig"; path = "Pods/Target Support Files/Pods-mini-hack/Pods-mini-hack.release.xcconfig"; sourceTree = "<group>"; };
+		7E7B73B355DC07298C0A465B /* Pods-mini-hack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mini-hack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mini-hack/Pods-mini-hack.debug.xcconfig"; sourceTree = "<group>"; };
+		842EC8F21D90E03200F1FB57 /* mini-hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mini-hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		842EC8F51D90E03200F1FB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		842EC8FA1D90E03200F1FB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842EC8FC1D90E03200F1FB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842EC8FF1D90E03200F1FB57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842EC9011D90E03200F1FB57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842EC90D1D90E70200F1FB57 /* PoplarStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoplarStd.otf; sourceTree = "<group>"; };
+		842EC90E1D90E70200F1FB57 /* StencilStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = StencilStd.otf; sourceTree = "<group>"; };
+		842EC9121D90E81400F1FB57 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		842EC9141D90EED400F1FB57 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		842EC9161D90EF6400F1FB57 /* PlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		842EC9191D90F36B00F1FB57 /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		842EC91A1D90F36B00F1FB57 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		842EC9491D90F7D800F1FB57 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		842EC9511D90FA2000F1FB57 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		842EC9531D90FA5100F1FB57 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		842EC95C1D90FDF600F1FB57 /* mini-hack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mini-hack-Bridging-Header.h"; sourceTree = "<group>"; };
+		842EC95E1D91011800F1FB57 /* pokemon.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.db; sourceTree = "<group>"; };
+		842EC9601D91052500F1FB57 /* ExtensionUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIImage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842EC8EF1D90E03200F1FB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842EC94A1D90F7D800F1FB57 /* libsqlite3.0.tbd in Frameworks */,
+				52B8E563CDF387A19DFFCE9C /* Pods_mini_hack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842EC8E91D90E03200F1FB57 = {
+			isa = PBXGroup;
+			children = (
+				842EC8F41D90E03200F1FB57 /* mini-hack */,
+				842EC8F31D90E03200F1FB57 /* Products */,
+				FAF0A9DBBACF1BBEECAE4245 /* Pods */,
+				AE1BCB5E6F8DEEFFCC6383EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		842EC8F31D90E03200F1FB57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842EC8F21D90E03200F1FB57 /* mini-hack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842EC8F41D90E03200F1FB57 /* mini-hack */ = {
+			isa = PBXGroup;
+			children = (
+				842EC91D1D90F38700F1FB57 /* Model */,
+				842EC9181D90F34B00F1FB57 /* Extension */,
+				842EC9111D90E7F800F1FB57 /* ViewController */,
+				842EC90C1D90E6FA00F1FB57 /* Font */,
+				842EC9091D90E4D800F1FB57 /* database */,
+				842EC8F51D90E03200F1FB57 /* AppDelegate.swift */,
+				842EC8F91D90E03200F1FB57 /* Main.storyboard */,
+				842EC8FC1D90E03200F1FB57 /* Assets.xcassets */,
+				842EC8FE1D90E03200F1FB57 /* LaunchScreen.storyboard */,
+				842EC9011D90E03200F1FB57 /* Info.plist */,
+				842EC95C1D90FDF600F1FB57 /* mini-hack-Bridging-Header.h */,
+			);
+			path = "mini-hack";
+			sourceTree = "<group>";
+		};
+		842EC9091D90E4D800F1FB57 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				842EC95E1D91011800F1FB57 /* pokemon.db */,
+				842EC9141D90EED400F1FB57 /* Database.swift */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
+		842EC90C1D90E6FA00F1FB57 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				842EC90D1D90E70200F1FB57 /* PoplarStd.otf */,
+				842EC90E1D90E70200F1FB57 /* StencilStd.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		842EC9111D90E7F800F1FB57 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				842EC9121D90E81400F1FB57 /* HomeViewController.swift */,
+				842EC9161D90EF6400F1FB57 /* PlayViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		842EC9181D90F34B00F1FB57 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				842EC9191D90F36B00F1FB57 /* ExtensionUIView.swift */,
+				842EC91A1D90F36B00F1FB57 /* ExtensionUIColor.swift */,
+				842EC9601D91052500F1FB57 /* ExtensionUIImage.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		842EC91D1D90F38700F1FB57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842EC9511D90FA2000F1FB57 /* ModelManager.swift */,
+				842EC9531D90FA5100F1FB57 /* Pokemon.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		AE1BCB5E6F8DEEFFCC6383EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842EC9491D90F7D800F1FB57 /* libsqlite3.0.tbd */,
+				23F448165BD647B7B5B33DEA /* Pods_mini_hack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF0A9DBBACF1BBEECAE4245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E7B73B355DC07298C0A465B /* Pods-mini-hack.debug.xcconfig */,
+				280BB0BE5ACD85DCEE5D6F4C /* Pods-mini-hack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842EC8F11D90E03200F1FB57 /* mini-hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842EC9041D90E03200F1FB57 /* Build configuration list for PBXNativeTarget "mini-hack" */;
+			buildPhases = (
+				08FB1C08732FD1C37967D6F2 /* [CP] Check Pods Manifest.lock */,
+				842EC8EE1D90E03200F1FB57 /* Sources */,
+				842EC8EF1D90E03200F1FB57 /* Frameworks */,
+				842EC8F01D90E03200F1FB57 /* Resources */,
+				44B512BD32922DF3855C6669 /* [CP] Embed Pods Frameworks */,
+				0E45400E7C6B533F20B7E748 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mini-hack";
+			productName = "mini-hack";
+			productReference = 842EC8F21D90E03200F1FB57 /* mini-hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842EC8EA1D90E03200F1FB57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					842EC8F11D90E03200F1FB57 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 842EC8ED1D90E03200F1FB57 /* Build configuration list for PBXProject "mini-hack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842EC8E91D90E03200F1FB57;
+			productRefGroup = 842EC8F31D90E03200F1FB57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842EC8F11D90E03200F1FB57 /* mini-hack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842EC8F01D90E03200F1FB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842EC95F1D9101A600F1FB57 /* pokemon.db in Resources */,
+				842EC90F1D90E71300F1FB57 /* PoplarStd.otf in Resources */,
+				842EC9101D90E71300F1FB57 /* StencilStd.otf in Resources */,
+				842EC9001D90E03200F1FB57 /* LaunchScreen.storyboard in Resources */,
+				842EC8FD1D90E03200F1FB57 /* Assets.xcassets in Resources */,
+				842EC8FB1D90E03200F1FB57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08FB1C08732FD1C37967D6F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0E45400E7C6B533F20B7E748 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mini-hack/Pods-mini-hack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44B512BD32922DF3855C6669 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mini-hack/Pods-mini-hack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842EC8EE1D90E03200F1FB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842EC91B1D90F36B00F1FB57 /* ExtensionUIView.swift in Sources */,
+				842EC8F61D90E03200F1FB57 /* AppDelegate.swift in Sources */,
+				842EC9151D90EED400F1FB57 /* Database.swift in Sources */,
+				842EC9521D90FA2000F1FB57 /* ModelManager.swift in Sources */,
+				842EC9541D90FA5100F1FB57 /* Pokemon.swift in Sources */,
+				842EC9171D90EF6400F1FB57 /* PlayViewController.swift in Sources */,
+				842EC9611D91052500F1FB57 /* ExtensionUIImage.swift in Sources */,
+				842EC91C1D90F36B00F1FB57 /* ExtensionUIColor.swift in Sources */,
+				842EC9131D90E81400F1FB57 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842EC8F91D90E03200F1FB57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842EC8FA1D90E03200F1FB57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842EC8FE1D90E03200F1FB57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842EC8FF1D90E03200F1FB57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842EC9021D90E03200F1FB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842EC9031D90E03200F1FB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842EC9051D90E03200F1FB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7B73B355DC07298C0A465B /* Pods-mini-hack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "mini-hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.mini-hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Desktop/mini-hack/mini-hack/mini-hack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		842EC9061D90E03200F1FB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280BB0BE5ACD85DCEE5D6F4C /* Pods-mini-hack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "mini-hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.mini-hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/admin/Desktop/mini-hack/mini-hack/mini-hack-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842EC8ED1D90E03200F1FB57 /* Build configuration list for PBXProject "mini-hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842EC9021D90E03200F1FB57 /* Debug */,
+				842EC9031D90E03200F1FB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842EC9041D90E03200F1FB57 /* Build configuration list for PBXNativeTarget "mini-hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842EC9051D90E03200F1FB57 /* Debug */,
+				842EC9061D90E03200F1FB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842EC8EA1D90E03200F1FB57 /* Project object */;
+}
